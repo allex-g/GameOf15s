@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url("wooden-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    background-color: #24160dd0;
+    padding: 24px;
+    color: rgb(206, 206, 206);
+    font-size: 59px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+td {
+    text-align: center;
+}
+
+table {  
+    margin-top: 5%;
+    margin-left: 30.5%;
+    border: 20px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 60px;
+    color: rgb(206, 206, 206);
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    text-align: center;
+    border: none;
+    padding: 30px 60px;
+    background-color: rgb(37, 21, 3);
+    color: rgb(206, 206, 206);
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #24160d;  
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+    background-color: #a36e48;
+    color: black;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background-color:  #24160d;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+    background-color: #a36e48;
+    color: black;
+}
+
+.footer {
+    background-color: rgb(17, 17, 17);
+    color: rgb(206, 206, 206);
+    padding: 30px;
+}
